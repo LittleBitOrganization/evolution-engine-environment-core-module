@@ -1,8 +1,9 @@
 
-namespace LittleBit.Modules.EnvironmentCoreModule
+namespace Events
 {
     public interface IDataEventAdImpression
     {
+        public SdkSource SdkSource { get; }
         public string AdSource { get; }
 
         public string AdFormat { get; }
@@ -12,6 +13,6 @@ namespace LittleBit.Modules.EnvironmentCoreModule
         public string Currency { get; }
 
         public double Value { get; }
-    }    
+    }
 }
 
