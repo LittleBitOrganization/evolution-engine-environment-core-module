@@ -1,6 +1,6 @@
-using UnityEngine.Scripting;
+using LittleBitGames.Environment.Ads;
 
-namespace Events
+namespace LittleBitGames.Environment.Events
 {
     public class AdRevenueAnalytics
     {

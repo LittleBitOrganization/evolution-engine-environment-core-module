@@ -1,4 +1,6 @@
-namespace Events
+using LittleBitGames.Environment.Ads;
+
+namespace LittleBitGames.Environment.Events
 {
     public class DataEventAdImpression : IDataEventAdImpression
     {

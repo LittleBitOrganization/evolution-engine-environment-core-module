@@ -1,4 +1,6 @@
-namespace Events
+using LittleBitGames.Environment.Events;
+
+namespace LittleBitGames.Environment.Ads
 {
     public interface IAdsEventService
     {

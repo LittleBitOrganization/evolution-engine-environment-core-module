@@ -1,6 +1,7 @@
 using System;
+using LittleBitGames.Environment.Events;
 
-namespace Events
+namespace LittleBitGames.Environment.Ads
 {
     public interface IMediationNetworkAnalytics
     {
