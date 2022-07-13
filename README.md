@@ -5,7 +5,7 @@
 Класс, который автоматически отправляет ивенты Ad Revenue, т.е. является связующим звеном между <b> Ads Module </b> и <b> Analytics Module </b>
 
 Интеграция: 
-1. Проверить, что интегрированы <b> Ads Module </b> 3.0.1, <b> Analytics Module </b> 2.0.0, <b> Environment Core Module </b> 2.0.0
+1. Проверить, что интегрированы <b> Ads Module </b> 3.0.0, <b> Analytics Module </b> 2.0.0, <b> Environment Core Module </b> 2.0.0
 
 2. Если <b> Analytics Module </b> уже интегрирован, проверить, чтобы биндинг <b> EventService </b> соответствовал следующему стандарту (чтобы также биндились его интерфейсы):
 ```c#
