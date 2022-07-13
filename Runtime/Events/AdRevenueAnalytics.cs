@@ -1,9 +1,12 @@
+using UnityEngine.Scripting;
+
 namespace Events
 {
     public class AdRevenueAnalytics
     {
         private readonly IAdsEventService _eventService;
 
+        [Preserve]
         public AdRevenueAnalytics(IAdsEventService eventService, IMediationNetworkAnalytics analytics)
         {
             _eventService = eventService;
