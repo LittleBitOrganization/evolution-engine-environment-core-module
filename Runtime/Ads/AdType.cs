@@ -1,4 +1,4 @@
-namespace Events
+namespace LittleBitGames.Environment.Ads
 {
     public enum AdType
     {

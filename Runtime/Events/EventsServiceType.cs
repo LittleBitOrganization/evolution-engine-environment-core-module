@@ -1,6 +1,6 @@
 using System;
 
-namespace Events
+namespace LittleBitGames.Environment.Events
 {
     [Flags]
     public enum EventsServiceType
