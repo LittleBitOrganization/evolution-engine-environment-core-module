@@ -66,5 +66,11 @@ Container
                  .Bind<AdRevenueAnalytics>()
                  .AsSingle()
                  .NonLazy();
+                //Отслеживает доход с покупок
+            Container
+                 .Bind<IapRevenueAnalytics>()
+                 .AsSingle()
+                 .NonLazy();
+                 
 
 ```
