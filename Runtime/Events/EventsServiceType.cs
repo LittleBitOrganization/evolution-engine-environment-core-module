@@ -10,6 +10,7 @@ namespace LittleBitGames.Environment.Events
         Adjust = 1 << 2,
         Amplitude = 1 << 3,
         Wazzitude = 1 << 4,
+        AppsFlyer = 1 << 5,
         Everything = Int32.MaxValue,
         
     }
