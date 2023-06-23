@@ -6,6 +6,8 @@ namespace LittleBitGames.Environment.Ads
     {
         event Action OnMediationInitialized;
 
+        public bool IsInitialized { get; }
+        
         public void Initialize();
     }
 }
