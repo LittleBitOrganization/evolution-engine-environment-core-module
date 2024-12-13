@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading.Tasks;
-using UnityEditor.VersionControl;
 
 namespace LittleBitGames.Environment.Purchase
 {
