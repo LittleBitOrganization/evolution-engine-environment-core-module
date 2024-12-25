@@ -15,5 +15,6 @@
         public double Amount{ get; }
 
         public string ItemType{ get; }
+        public string TransactionId{ get; }
     }
 }
