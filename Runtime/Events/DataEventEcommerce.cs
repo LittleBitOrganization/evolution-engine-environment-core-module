@@ -9,8 +9,9 @@
         private readonly string _cartType;
         private readonly string _receipt;
         private readonly string _signature;
+        private readonly string _transactionId;
 
-        public DataEventEcommerce(string currency, double amount, string itemType, string itemId, string cartType, string receipt, string signature)
+        public DataEventEcommerce(string currency, double amount, string itemType, string itemId, string cartType, string receipt, string signature, string transactionId)
         {
             _currency = currency;
             _amount = amount;
@@ -19,6 +20,7 @@
             _cartType = cartType;
             _receipt = receipt;
             _signature = signature;
+            _transactionId = transactionId;
         }
 
         public string ItemId => _itemId;
@@ -34,5 +36,7 @@
         public double Amount => _amount;
 
         public string ItemType => _itemType;
+
+        public string TransactionId => _transactionId;
     }
 }
