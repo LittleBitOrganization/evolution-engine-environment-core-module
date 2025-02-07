@@ -1,4 +1,6 @@
-﻿namespace LittleBitGames.Environment.Events
+﻿using Purchase;
+
+namespace LittleBitGames.Environment.Events
 {
     public class DataEventEcommerce : IDataEventEcommerce
     {
@@ -10,8 +12,10 @@
         private readonly string _receipt;
         private readonly string _signature;
         private readonly string _transactionId;
+        private readonly RecieptHandler _recieptHandler;
 
-        public DataEventEcommerce(string currency, double amount, string itemType, string itemId, string cartType, string receipt, string signature, string transactionId)
+        public DataEventEcommerce(string currency, double amount, string itemType, string itemId, string cartType,
+            string receipt, string signature, string transactionId, RecieptHandler recieptHandler)
         {
             _currency = currency;
             _amount = amount;
@@ -21,6 +25,7 @@
             _receipt = receipt;
             _signature = signature;
             _transactionId = transactionId;
+            _recieptHandler = recieptHandler;
         }
 
         public string ItemId => _itemId;
@@ -38,5 +43,6 @@
         public string ItemType => _itemType;
 
         public string TransactionId => _transactionId;
+        public RecieptHandler ReceiptHandler => _recieptHandler;
     }
 }

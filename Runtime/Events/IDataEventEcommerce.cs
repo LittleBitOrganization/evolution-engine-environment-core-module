@@ -1,4 +1,6 @@
-﻿namespace LittleBitGames.Environment.Events
+﻿using Purchase;
+
+namespace LittleBitGames.Environment.Events
 {
     public interface IDataEventEcommerce
     {
@@ -16,5 +18,6 @@
 
         public string ItemType{ get; }
         public string TransactionId{ get; }
+        public  RecieptHandler ReceiptHandler{ get; }
     }
 }
